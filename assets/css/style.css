@@ -1,0 +1,100 @@
+@font-face {
+  font-family: "Andika", sans-serif;
+  src: url(../fonts/Andika/Andika-Bold.ttf);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.sectionLogo p {
+  letter-spacing: 3px;
+  color: #332fd0;
+  font-size: 1.5em;
+}
+.sectionLogo article a:nth-of-type(5) {
+  border: 1px solid blue;
+  background-color: #332fd0;
+  color: white;
+  border-radius: 35px;
+  padding: 0.5vh 2vw;
+  font-size: 1.3em;
+}
+.sectionLogo {
+  display: flex;
+  justify-content: space-between;
+  margin: 0 5%;
+  height: 20vh;
+  align-items: center;
+}
+.sectionLogo article {
+  font-family: "Andika", sans-serif;
+}
+.sectionLogo article a {
+  padding: 0 20px;
+  text-decoration: none;
+  color: black;
+  letter-spacing: 0.5px;
+  transition: all 1s;
+}
+.nav:hover {
+  text-transform: uppercase;
+}
+.sectionLogo article a:nth-of-type(5):hover {
+  transition: all 1s;
+  box-shadow: 0 0 2px 2px #332fd0;
+}
+main {
+  margin: 10vh 5% 0 5%;
+}
+.ganzeSection,
+.beschreibung {
+  width: 100%;
+  width: 700px;
+  margin: 300px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-content: center;
+  align-items: center;
+}
+.überMich .beschreibung {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+.überMich h1 {
+  padding: 15px 0;
+  font-size: 3rem;
+}
+.überMich button {
+  color: white;
+  font-size: 1.3rem;
+  background-color: #332fd0;
+  width: max-content;
+  border: 1px solid #332fd0;
+  border-radius: 25px;
+  margin: 25px 0 0 15px;
+  padding: 10px 15px;
+  transition: all 1s;
+}
+.image img {
+  box-shadow: 20px 20px 0px 0px #332fd0;
+}
+.überMich button:hover {
+  cursor: pointer;
+  transition: 1s;
+  box-shadow: 0 0 2px 2px #332fd0;
+}
+.beschreibung p {
+  width: 100%;
+  max-width: 400px;
+  margin-top: 15%;
+}
+.beschreibung h2 {
+  font-size: 4rem;
+}
+.beschreibung h2 span {
+  padding-left: 60px;
+}
